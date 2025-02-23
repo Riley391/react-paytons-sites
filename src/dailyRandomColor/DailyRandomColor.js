@@ -1,5 +1,5 @@
 import "./DailyRandomColor.css";
-import Navbar from "../pieces/Navbar.js";
+import Navbar from "../components/Navbar.js";
 
 /*
 TODO: make default colors for certain dates (i.e. pink for valentine's day, green for st. patty's day etc.)
