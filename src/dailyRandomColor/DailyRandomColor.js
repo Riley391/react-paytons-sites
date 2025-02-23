@@ -1,14 +1,13 @@
 import "./DailyRandomColor.css";
 
 /*
-TODO:
-make default colors for certain dates (i.e. pink for valentine's day, green for st. patty's day etc.)
+TODO: make default colors for certain dates (i.e. pink for valentine's day, green for st. patty's day etc.)
 Valentine's Day - Pink
 St. Patrick's Day - Green
 Christmas - Red
 Halloween - Orange
 April Fool's Day - True Random Color
-add text shadow to color text
+TODO: add text shadow to color text
 */
 
 const trueRandomColor = () => {
