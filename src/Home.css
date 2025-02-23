@@ -15,7 +15,7 @@
     background-color: pink;
   }
   
-  .app {
+  .home {
     display: flex;
     flex-direction: column;
     align-items: center;
