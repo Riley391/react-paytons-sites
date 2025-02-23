@@ -1,7 +1,7 @@
 import SiteCard from "./SiteCard";
 import siteList from "./siteList";
 
-//TODO: create site cards programmatically from siteList
+//TODO: add CSS
 const App = () => {
   return (
     <div>
