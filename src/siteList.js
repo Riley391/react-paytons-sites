@@ -6,6 +6,7 @@ const siteList = [
   {
     id: 0,
     title: "Pokémon Quiz",
+    routed: false,
     link: "https://pokemonquiz.me",
     thumbnail: PokemonQuizThumbnail,
     year: "2022",
@@ -13,6 +14,7 @@ const siteList = [
   {
     id: 1,
     title: "freecodecamp",
+    routed: false,
     link: "https://freecodecamp.org",
     thumbnail: FreeCodeCampThumbnail,
     year: "2022",
@@ -20,7 +22,8 @@ const siteList = [
   {
     id: 2,
     title: "Daily Random Color",
-    link: "#",
+    routed: true,
+    link: "/daily-random-color",
     thumbnail: RandomDailyColorThumbnail,
     year: "2025",
   },

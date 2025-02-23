@@ -4,7 +4,9 @@ import "./Home.css";
 
 //TODO: learn hooks and animate box shadows OR just add static box shadows
 //IF box shadows are animated, make the default a lil shadow
-//TODO: learn react router and make the site cards link to their respective sites
+//TODO: remove CSS files, add the CSS to the JS files in style tags
+//TODO: add a favicon
+//TODO: fix styles such that cards are horizontal instead of vertical
 const Home = () => {
   return (
     <div className="home">
