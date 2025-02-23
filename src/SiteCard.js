@@ -4,7 +4,7 @@ const SiteCard = (props) => {
       <div className="site-box">
         <img
           src={props.thumbnail}
-          alt={props.title}
+          alt={props.title + " Thumbnail"}
           width="250px"
           height="125"
         />
