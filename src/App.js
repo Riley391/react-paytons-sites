@@ -2,7 +2,7 @@ import SiteCard from "./SiteCard";
 import siteList from "./siteList";
 import "./App.css";
 
-//TODO: learn hooks and animate box shadows
+//TODO: learn hooks and animate box shadows OR just add static box shadows
 const App = () => {
   return (
     <div className="app">
