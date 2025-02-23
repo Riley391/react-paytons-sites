@@ -3,6 +3,7 @@ import siteList from "./siteList";
 import "./App.css";
 
 //TODO: learn hooks and animate box shadows OR just add static box shadows
+//IF box shadows are animated, make the default a lil shadow
 const App = () => {
   return (
     <div className="app">
