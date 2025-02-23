@@ -1,12 +1,13 @@
 import SiteCard from "./SiteCard";
 import siteList from "./siteList";
+import "./App.css";
 
-//TODO: add CSS
+//TODO: learn hooks and animate box shadows
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <h1>Payton's Sites</h1>
-      <div>
+      <div className="box-box">
         {siteList.map((site) => (
           <SiteCard
             title={site.title}
