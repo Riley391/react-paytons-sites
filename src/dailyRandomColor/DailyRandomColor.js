@@ -1,4 +1,5 @@
 import "./DailyRandomColor.css";
+import Navbar from "../pieces/Navbar.js";
 
 /*
 TODO: make default colors for certain dates (i.e. pink for valentine's day, green for st. patty's day etc.)
@@ -60,60 +61,63 @@ const dailyColor = `hsl(${dailyColorValues[0]}, ${dailyColorValues[1]}%, ${daily
 
 const DailyRandomColor = () => {
   return (
-    <div
-      style={{
-        backgroundColor: dailyColor,
-      }}
-      className="box-box"
-    >
-      <h1
-        style={{
-          color: `hsl(${dailyColorValues[0]}, ${
-            dailyColorValues[1]
-          }%, ${genContrastingLit(dailyColorValues[2])}%)`,
-          textShadow: `1px 1px 2px ${dailyColor}`,
-        }}
-      >
-        Daily Random Color
-      </h1>
+    <>
+      <Navbar />
       <div
-        id="color-box"
-        className="color-box"
         style={{
-          boxShadow: `5px 7px hsl(${dailyColorValues[0]}, ${
-            dailyColorValues[1]
-          }%, ${genContrastingLit(dailyColorValues[2])}%)`,
+          backgroundColor: dailyColor,
         }}
+        className="box-box"
       >
-        <p
-          id="hue-text"
-          className="color-text"
+        <h1
           style={{
             color: `hsl(${dailyColorValues[0]}, ${
               dailyColorValues[1]
             }%, ${genContrastingLit(dailyColorValues[2])}%)`,
+            textShadow: `1px 1px 2px ${dailyColor}`,
           }}
-        >{`Hue: ${dailyColorValues[0]}`}</p>
-        <p
-          id="hue-text"
-          className="color-text"
+        >
+          Daily Random Color
+        </h1>
+        <div
+          id="color-box"
+          className="color-box"
           style={{
-            color: `hsl(${dailyColorValues[0]}, ${
+            boxShadow: `5px 7px hsl(${dailyColorValues[0]}, ${
               dailyColorValues[1]
             }%, ${genContrastingLit(dailyColorValues[2])}%)`,
           }}
-        >{`Saturation: ${dailyColorValues[1]}%`}</p>
-        <p
-          id="hue-text"
-          className="color-text"
-          style={{
-            color: `hsl(${dailyColorValues[0]}, ${
-              dailyColorValues[1]
-            }%, ${genContrastingLit(dailyColorValues[2])}%)`,
-          }}
-        >{`Lightness: ${dailyColorValues[2]}%`}</p>
+        >
+          <p
+            id="hue-text"
+            className="color-text"
+            style={{
+              color: `hsl(${dailyColorValues[0]}, ${
+                dailyColorValues[1]
+              }%, ${genContrastingLit(dailyColorValues[2])}%)`,
+            }}
+          >{`Hue: ${dailyColorValues[0]}`}</p>
+          <p
+            id="hue-text"
+            className="color-text"
+            style={{
+              color: `hsl(${dailyColorValues[0]}, ${
+                dailyColorValues[1]
+              }%, ${genContrastingLit(dailyColorValues[2])}%)`,
+            }}
+          >{`Saturation: ${dailyColorValues[1]}%`}</p>
+          <p
+            id="hue-text"
+            className="color-text"
+            style={{
+              color: `hsl(${dailyColorValues[0]}, ${
+                dailyColorValues[1]
+              }%, ${genContrastingLit(dailyColorValues[2])}%)`,
+            }}
+          >{`Lightness: ${dailyColorValues[2]}%`}</p>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
